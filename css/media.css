@@ -1,0 +1,128 @@
+               /*==========  Desktop First Method  ==========*/
+               /* Large Devices, Wide Screens */
+               
+               @media only screen and (max-width: 1200px) {
+                    .navbar-nav {
+                         float: none;
+                         text-align: center;
+                    }
+                    .navbar-nav li {
+                         float: none;
+                         display: inline-block;
+                    }
+                    #custom_carousel p {
+                         height: 210px
+                    }
+               }
+               /* Medium Devices, Desktops */
+               
+               @media only screen and (max-width: 992px) {
+                    .navbar-nav {
+                         float: none;
+                         text-align: center;
+                    }
+                    .navbar-nav li {
+                         float: none;
+                         display: inline-block;
+                    }
+                    #custom_carousel p {
+                         height: 210px
+                    }
+               }
+               /* Small Devices, Tablets */
+               
+               @media only screen and (max-width: 767px) {
+                    .my_carousel {
+                         max-width: 480px;
+                         margin: auto;
+                    }
+                    .navbar-nav li {
+                         float: none;
+                         display: block;
+                    }
+                    #custom_carousel p {
+                         height: 270px
+                    }
+               }
+               /* Extra Small Devices, Phones */
+               
+               @media only screen and (max-width: 480px) {
+                    .my_carousel {
+                         max-width: 480px;
+                         margin: auto;
+                    }
+                    .navbar-nav li {
+                         float: none;
+                         display: block;
+                    }
+                    #custom_carousel p {
+                         height: 340px
+                    }
+               }
+               /* Custom, iPhone Retina */
+               
+               @media only screen and (max-width: 320px) {
+                    #custom_carousel p {
+                         height: 340px
+                    }
+               }
+               /*==========  Mobile First Method  ==========*/
+               /* Custom, iPhone Retina */
+               
+               @media only screen and (min-width: 320px) {
+                    #custom_carousel p {
+                         height: 340px
+                    }
+               }
+               /* Extra Small Devices, Phones */
+               
+               @media only screen and (min-width: 480px) {
+                    .my_carousel {
+                         max-width: 480px;
+                         margin: auto;
+                    }
+                    #custom_carousel p {
+                         height: 340px
+                    }
+               }
+               /* Small Devices, Tablets */
+               
+               @media only screen and (min-width: 767px) {
+                    .my_carousel {
+                         max-width: 480px;
+                         margin: auto;
+                    }
+                    #custom_carousel p {
+                         height: 270px
+                    }
+               }
+               /* Medium Devices, Desktops */
+               
+               @media only screen and (min-width: 992px) {
+                    .navbar-nav {
+                         float: none;
+                         text-align: center;
+                    }
+                    .navbar-nav li {
+                         float: none;
+                         display: inline-block;
+                    }
+                    #custom_carousel p {
+                         height: 210px
+                    }
+               }
+               /* Large Devices, Wide Screens */
+               
+               @media only screen and (min-width: 1200px) {
+                    .navbar-nav {
+                         float: none;
+                         text-align: center;
+                    }
+                    .navbar-nav li {
+                         float: none;
+                         display: inline-block;
+                    }
+                    #custom_carousel p {
+                         height: 210px
+                    }
+               }
